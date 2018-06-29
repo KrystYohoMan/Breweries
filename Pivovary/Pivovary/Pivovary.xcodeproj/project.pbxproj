@@ -1,0 +1,430 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		077BB938C71512FEC7A66C9C /* Pods_Pivovary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAA25D8BFCB27BA0844F2CC7 /* Pods_Pivovary.framework */; };
+		9530D4A120E607EF00E70573 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9530D4A020E607EF00E70573 /* AppDelegate.swift */; };
+		9530D4A320E607EF00E70573 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9530D4A220E607EF00E70573 /* LoginViewController.swift */; };
+		9530D4A820E607F100E70573 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9530D4A720E607F100E70573 /* Assets.xcassets */; };
+		9530D4AB20E607F100E70573 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9530D4A920E607F100E70573 /* LaunchScreen.storyboard */; };
+		9530D4B620E60CE900E70573 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9530D4B520E60CE900E70573 /* LoginView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		9530D49D20E607EF00E70573 /* Pivovary.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pivovary.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9530D4A020E607EF00E70573 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9530D4A220E607EF00E70573 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		9530D4A720E607F100E70573 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9530D4AA20E607F100E70573 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9530D4AC20E607F100E70573 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9530D4B520E60CE900E70573 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		C5C477C86180A7B1CFBD2139 /* Pods-Pivovary.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pivovary.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Pivovary/Pods-Pivovary.debug.xcconfig"; sourceTree = "<group>"; };
+		ECEF5427E3A6B3749E8ED071 /* Pods-Pivovary.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pivovary.release.xcconfig"; path = "Pods/Target Support Files/Pods-Pivovary/Pods-Pivovary.release.xcconfig"; sourceTree = "<group>"; };
+		FAA25D8BFCB27BA0844F2CC7 /* Pods_Pivovary.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Pivovary.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9530D49A20E607EF00E70573 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				077BB938C71512FEC7A66C9C /* Pods_Pivovary.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		72447CFAB15CFF9B8367C458 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C5C477C86180A7B1CFBD2139 /* Pods-Pivovary.debug.xcconfig */,
+				ECEF5427E3A6B3749E8ED071 /* Pods-Pivovary.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		9530D49420E607EF00E70573 = {
+			isa = PBXGroup;
+			children = (
+				9530D49F20E607EF00E70573 /* Pivovary */,
+				9530D49E20E607EF00E70573 /* Products */,
+				72447CFAB15CFF9B8367C458 /* Pods */,
+				DD886785AD7925C639E142EB /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		9530D49E20E607EF00E70573 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9530D49D20E607EF00E70573 /* Pivovary.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9530D49F20E607EF00E70573 /* Pivovary */ = {
+			isa = PBXGroup;
+			children = (
+				95BCADEC20E61C9F00C55CA7 /* Scenes */,
+				9530D4A020E607EF00E70573 /* AppDelegate.swift */,
+				9530D4A720E607F100E70573 /* Assets.xcassets */,
+				9530D4A920E607F100E70573 /* LaunchScreen.storyboard */,
+				9530D4AC20E607F100E70573 /* Info.plist */,
+			);
+			path = Pivovary;
+			sourceTree = "<group>";
+		};
+		9530D4B220E6093D00E70573 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				9530D4B320E60CC100E70573 /* View */,
+				9530D4B420E60CC800E70573 /* ViewController */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		9530D4B320E60CC100E70573 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				9530D4B520E60CE900E70573 /* LoginView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		9530D4B420E60CC800E70573 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				9530D4A220E607EF00E70573 /* LoginViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		95BCADEC20E61C9F00C55CA7 /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				9530D4B220E6093D00E70573 /* Login */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		DD886785AD7925C639E142EB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FAA25D8BFCB27BA0844F2CC7 /* Pods_Pivovary.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9530D49C20E607EF00E70573 /* Pivovary */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9530D4AF20E607F100E70573 /* Build configuration list for PBXNativeTarget "Pivovary" */;
+			buildPhases = (
+				5A2F188CFE90428924BC2C42 /* [CP] Check Pods Manifest.lock */,
+				9530D49920E607EF00E70573 /* Sources */,
+				9530D49A20E607EF00E70573 /* Frameworks */,
+				9530D49B20E607EF00E70573 /* Resources */,
+				A790CC5C78B061133DC24769 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Pivovary;
+			productName = Pivovary;
+			productReference = 9530D49D20E607EF00E70573 /* Pivovary.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9530D49520E607EF00E70573 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "Krystian Labaj";
+				TargetAttributes = {
+					9530D49C20E607EF00E70573 = {
+						CreatedOnToolsVersion = 9.4;
+					};
+				};
+			};
+			buildConfigurationList = 9530D49820E607EF00E70573 /* Build configuration list for PBXProject "Pivovary" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9530D49420E607EF00E70573;
+			productRefGroup = 9530D49E20E607EF00E70573 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9530D49C20E607EF00E70573 /* Pivovary */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9530D49B20E607EF00E70573 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9530D4AB20E607F100E70573 /* LaunchScreen.storyboard in Resources */,
+				9530D4A820E607F100E70573 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5A2F188CFE90428924BC2C42 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Pivovary-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A790CC5C78B061133DC24769 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Pivovary/Pods-Pivovary-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/IQKeyboardManager/IQKeyboardManager.framework",
+				"${BUILT_PRODUCTS_DIR}/PureLayout/PureLayout.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IQKeyboardManager.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PureLayout.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Pivovary/Pods-Pivovary-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9530D49920E607EF00E70573 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9530D4B620E60CE900E70573 /* LoginView.swift in Sources */,
+				9530D4A320E607EF00E70573 /* LoginViewController.swift in Sources */,
+				9530D4A120E607EF00E70573 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		9530D4A920E607F100E70573 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9530D4AA20E607F100E70573 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9530D4AD20E607F100E70573 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9530D4AE20E607F100E70573 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9530D4B020E607F100E70573 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C5C477C86180A7B1CFBD2139 /* Pods-Pivovary.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Pivovary/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Labaj.Pivovary;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9530D4B120E607F100E70573 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ECEF5427E3A6B3749E8ED071 /* Pods-Pivovary.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Pivovary/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Labaj.Pivovary;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9530D49820E607EF00E70573 /* Build configuration list for PBXProject "Pivovary" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9530D4AD20E607F100E70573 /* Debug */,
+				9530D4AE20E607F100E70573 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9530D4AF20E607F100E70573 /* Build configuration list for PBXNativeTarget "Pivovary" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9530D4B020E607F100E70573 /* Debug */,
+				9530D4B120E607F100E70573 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9530D49520E607EF00E70573 /* Project object */;
+}

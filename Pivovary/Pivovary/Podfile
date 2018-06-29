@@ -1,0 +1,10 @@
+use_frameworks!
+
+def shared_pods
+    pod "PureLayout"
+    pod "IQKeyboardManager"
+end
+
+target 'Pivovary' do
+    shared_pods
+end

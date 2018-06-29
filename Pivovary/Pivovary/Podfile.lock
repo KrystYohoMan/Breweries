@@ -1,0 +1,20 @@
+PODS:
+  - IQKeyboardManager (6.0.4)
+  - PureLayout (3.0.2)
+
+DEPENDENCIES:
+  - IQKeyboardManager
+  - PureLayout
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - IQKeyboardManager
+    - PureLayout
+
+SPEC CHECKSUMS:
+  IQKeyboardManager: 29514134ef0334a6fa33cf4eee11c36c064baeaf
+  PureLayout: 4d550abe49a94f24c2808b9b95db9131685fe4cd
+
+PODFILE CHECKSUM: fb83bed06cb7c8565a4165feec664615bb9e11c5
+
+COCOAPODS: 1.5.3

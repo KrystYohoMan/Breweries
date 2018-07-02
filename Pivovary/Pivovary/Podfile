@@ -3,9 +3,8 @@ use_frameworks!
 def shared_pods
     pod "PureLayout"
     pod "IQKeyboardManager"
-    pod "ObjectMapper"
     pod "Alamofire"
-    pod "SwiftyJSON"
+    pod "Unbox"
 end
 
 target 'Pivovary' do

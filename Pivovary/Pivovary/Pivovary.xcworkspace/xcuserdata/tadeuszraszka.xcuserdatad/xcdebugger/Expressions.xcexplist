@@ -10,5 +10,30 @@
             </PersistentString>
          </PersistentStrings>
       </ContextState>
+      <ContextState
+         contextName = "closure #1 in BreweriesRequest.apiRequest():BreweriesRequest.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "nameArray">
+            </PersistentString>
+            <PersistentString
+               value = "value">
+            </PersistentString>
+            <PersistentString
+               value = "json[&quot;name&quot;] as? String">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "BreweriesDataSource.tableView(_:numberOfRowsInSection:):BreweriesDataSource.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "name = json[&quot;name&quot;]">
+            </PersistentString>
+            <PersistentString
+               value = "breweriesRequest.nameArray.count">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
    </ContextStates>
 </VariablesViewState>

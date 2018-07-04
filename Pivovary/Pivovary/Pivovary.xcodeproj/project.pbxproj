@@ -20,7 +20,6 @@
 		9530D4AB20E607F100E70573 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9530D4A920E607F100E70573 /* LaunchScreen.storyboard */; };
 		9530D4B620E60CE900E70573 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9530D4B520E60CE900E70573 /* LoginView.swift */; };
 		9549E66520EBB623001E374B /* BrewerModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9549E66420EBB623001E374B /* BrewerModel.swift */; };
-		9549E66820EBC75E001E374B /* BrewerFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9549E66720EBC75E001E374B /* BrewerFormatter.swift */; };
 		9549E66B20EBEFF7001E374B /* BreweriesRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9549E66A20EBEFF7001E374B /* BreweriesRequest.swift */; };
 		9563432220E631F500D67030 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9563432120E631F500D67030 /* Colors.swift */; };
 		9563432420E643E500D67030 /* ViewLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9563432320E643E500D67030 /* ViewLayout.swift */; };
@@ -44,7 +43,6 @@
 		9530D4AC20E607F100E70573 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9530D4B520E60CE900E70573 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 		9549E66420EBB623001E374B /* BrewerModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrewerModel.swift; sourceTree = "<group>"; };
-		9549E66720EBC75E001E374B /* BrewerFormatter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrewerFormatter.swift; sourceTree = "<group>"; };
 		9549E66A20EBEFF7001E374B /* BreweriesRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreweriesRequest.swift; sourceTree = "<group>"; };
 		9563432120E631F500D67030 /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
 		9563432320E643E500D67030 /* ViewLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewLayout.swift; sourceTree = "<group>"; };
@@ -124,7 +122,6 @@
 			isa = PBXGroup;
 			children = (
 				9549E66920EBEFC9001E374B /* APIRequest */,
-				9549E66620EBC6AF001E374B /* Formatter */,
 				9549E66320EBB60B001E374B /* Model */,
 			);
 			path = Core;
@@ -237,14 +234,6 @@
 				9549E66420EBB623001E374B /* BrewerModel.swift */,
 			);
 			path = Model;
-			sourceTree = "<group>";
-		};
-		9549E66620EBC6AF001E374B /* Formatter */ = {
-			isa = PBXGroup;
-			children = (
-				9549E66720EBC75E001E374B /* BrewerFormatter.swift */,
-			);
-			path = Formatter;
 			sourceTree = "<group>";
 		};
 		9549E66920EBEFC9001E374B /* APIRequest */ = {
@@ -411,7 +400,6 @@
 				9530D4B620E60CE900E70573 /* LoginView.swift in Sources */,
 				950A727A20EC969000E79EE6 /* SafeAreaExtension.swift in Sources */,
 				95DC4E4420E7C1660030E7C2 /* SeparatorView.swift in Sources */,
-				9549E66820EBC75E001E374B /* BrewerFormatter.swift in Sources */,
 				9563432220E631F500D67030 /* Colors.swift in Sources */,
 				9530D4A320E607EF00E70573 /* LoginViewController.swift in Sources */,
 				9530D4A120E607EF00E70573 /* AppDelegate.swift in Sources */,

@@ -1,12 +1,22 @@
 PODS:
   - Alamofire (4.7.2)
   - IQKeyboardManager (6.0.4)
+  - PromiseKit (6.3.4):
+    - PromiseKit/CorePromise (= 6.3.4)
+    - PromiseKit/Foundation (= 6.3.4)
+    - PromiseKit/UIKit (= 6.3.4)
+  - PromiseKit/CorePromise (6.3.4)
+  - PromiseKit/Foundation (6.3.4):
+    - PromiseKit/CorePromise
+  - PromiseKit/UIKit (6.3.4):
+    - PromiseKit/CorePromise
   - PureLayout (3.0.2)
   - Unbox (3.0.0)
 
 DEPENDENCIES:
   - Alamofire
   - IQKeyboardManager
+  - PromiseKit
   - PureLayout
   - Unbox
 
@@ -14,15 +24,17 @@ SPEC REPOS:
   https://github.com/cocoapods/specs.git:
     - Alamofire
     - IQKeyboardManager
+    - PromiseKit
     - PureLayout
     - Unbox
 
 SPEC CHECKSUMS:
   Alamofire: e4fa87002c137ba2d8d634d2c51fabcda0d5c223
   IQKeyboardManager: 29514134ef0334a6fa33cf4eee11c36c064baeaf
+  PromiseKit: e1425568123ec844a944c93f2bcb29d511d39cf5
   PureLayout: 4d550abe49a94f24c2808b9b95db9131685fe4cd
   Unbox: 9ed33b2a31f7a8a049f54b94d40c4a52a28c4d9d
 
-PODFILE CHECKSUM: e36e3b6c602745cb5a45a31e363c00cf2dd4b030
+PODFILE CHECKSUM: ddd8fdea3085e806121afd0a5c1972125520967c
 
 COCOAPODS: 1.5.3

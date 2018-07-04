@@ -8,7 +8,7 @@
 
 import UIKit
 
-class BreweriesTableViewCell: UITableViewCell {
+final class BreweriesTableViewCell: UITableViewCell {
     
     private let brewerLabel = UILabel()
 
@@ -41,7 +41,7 @@ extension BreweriesTableViewCell: ViewLayout {
 
 extension BreweriesTableViewCell {
     
-    func setBackgroundColor(color: UIColor) {
-        backgroundColor = color
+    func setupWith(viewModel: BrewerModel) {
+        brewerLabel.text = viewModel.name
     }
 }

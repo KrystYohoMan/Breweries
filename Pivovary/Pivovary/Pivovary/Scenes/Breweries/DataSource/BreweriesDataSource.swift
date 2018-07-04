@@ -8,9 +8,9 @@
 
 import UIKit
 
-class BreweriesDataSource: NSObject, UITableViewDataSource {
+final class BreweriesDataSource: NSObject, UITableViewDataSource {
 
-    let breweriesArray: NSArray = ["First", "Second", "Third", "Fourth", "Fifth", "Sixth", "Seventh"]
+    private let breweriesArray: NSArray = ["One", "Two", "Three"]
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return breweriesArray.count
@@ -22,7 +22,6 @@ class BreweriesDataSource: NSObject, UITableViewDataSource {
             return UITableViewCell()
         }
         cell.textLabel?.text = "\(breweriesArray[indexPath.row])"
-        cell.setBackgroundColor(color: (indexPath.row % 2 == 0) ? Color.white.color : Color.beerYellow.color)
         return cell
     }
 }

@@ -5,6 +5,7 @@ def shared_pods
     pod "IQKeyboardManager"
     pod "Alamofire"
     pod "Unbox"
+    pod "PromiseKit"
 end
 
 target 'Pivovary' do

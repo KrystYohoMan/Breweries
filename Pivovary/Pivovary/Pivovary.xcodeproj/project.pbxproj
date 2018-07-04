@@ -8,7 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		077BB938C71512FEC7A66C9C /* Pods_Pivovary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAA25D8BFCB27BA0844F2CC7 /* Pods_Pivovary.framework */; };
-		9514115820EA391000B8A4AB /* APIRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9514115720EA391000B8A4AB /* APIRequest.swift */; };
+		950A727320EC94A800E79EE6 /* LoginRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 950A727220EC94A800E79EE6 /* LoginRequest.swift */; };
+		950A727A20EC969000E79EE6 /* SafeAreaExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 950A727920EC969000E79EE6 /* SafeAreaExtension.swift */; };
 		9514115E20EA506300B8A4AB /* BreweriesDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9514115D20EA506300B8A4AB /* BreweriesDataSource.swift */; };
 		9514116020EA507C00B8A4AB /* BreweriesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9514115F20EA507C00B8A4AB /* BreweriesViewController.swift */; };
 		9514116220EA508F00B8A4AB /* BreweriesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9514116120EA508F00B8A4AB /* BreweriesView.swift */; };
@@ -18,6 +19,9 @@
 		9530D4A820E607F100E70573 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9530D4A720E607F100E70573 /* Assets.xcassets */; };
 		9530D4AB20E607F100E70573 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9530D4A920E607F100E70573 /* LaunchScreen.storyboard */; };
 		9530D4B620E60CE900E70573 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9530D4B520E60CE900E70573 /* LoginView.swift */; };
+		9549E66520EBB623001E374B /* BrewerModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9549E66420EBB623001E374B /* BrewerModel.swift */; };
+		9549E66820EBC75E001E374B /* BrewerFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9549E66720EBC75E001E374B /* BrewerFormatter.swift */; };
+		9549E66B20EBEFF7001E374B /* BreweriesRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9549E66A20EBEFF7001E374B /* BreweriesRequest.swift */; };
 		9563432220E631F500D67030 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9563432120E631F500D67030 /* Colors.swift */; };
 		9563432420E643E500D67030 /* ViewLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9563432320E643E500D67030 /* ViewLayout.swift */; };
 		95AAC40720E779A8007BFBF6 /* Sizes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95AAC40620E779A8007BFBF6 /* Sizes.swift */; };
@@ -26,7 +30,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		9514115720EA391000B8A4AB /* APIRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIRequest.swift; sourceTree = "<group>"; };
+		950A727220EC94A800E79EE6 /* LoginRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginRequest.swift; sourceTree = "<group>"; };
+		950A727920EC969000E79EE6 /* SafeAreaExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafeAreaExtension.swift; sourceTree = "<group>"; };
 		9514115D20EA506300B8A4AB /* BreweriesDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreweriesDataSource.swift; sourceTree = "<group>"; };
 		9514115F20EA507C00B8A4AB /* BreweriesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreweriesViewController.swift; sourceTree = "<group>"; };
 		9514116120EA508F00B8A4AB /* BreweriesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreweriesView.swift; sourceTree = "<group>"; };
@@ -38,6 +43,9 @@
 		9530D4AA20E607F100E70573 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9530D4AC20E607F100E70573 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9530D4B520E60CE900E70573 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		9549E66420EBB623001E374B /* BrewerModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrewerModel.swift; sourceTree = "<group>"; };
+		9549E66720EBC75E001E374B /* BrewerFormatter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrewerFormatter.swift; sourceTree = "<group>"; };
+		9549E66A20EBEFF7001E374B /* BreweriesRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreweriesRequest.swift; sourceTree = "<group>"; };
 		9563432120E631F500D67030 /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
 		9563432320E643E500D67030 /* ViewLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewLayout.swift; sourceTree = "<group>"; };
 		95AAC40620E779A8007BFBF6 /* Sizes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sizes.swift; sourceTree = "<group>"; };
@@ -69,20 +77,57 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		950A727420EC95C900E79EE6 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				950A727620EC961100E79EE6 /* Constants */,
+				950A727720EC963900E79EE6 /* GenericViews */,
+				950A727820EC967900E79EE6 /* Extensions */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		950A727520EC960500E79EE6 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				9563432320E643E500D67030 /* ViewLayout.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		950A727620EC961100E79EE6 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				9563432120E631F500D67030 /* Colors.swift */,
+				95AAC40620E779A8007BFBF6 /* Sizes.swift */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		950A727720EC963900E79EE6 /* GenericViews */ = {
+			isa = PBXGroup;
+			children = (
+				95DC4E4320E7C1660030E7C2 /* SeparatorView.swift */,
+			);
+			path = GenericViews;
+			sourceTree = "<group>";
+		};
+		950A727820EC967900E79EE6 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				950A727920EC969000E79EE6 /* SafeAreaExtension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
 		9514115520EA38B300B8A4AB /* Core */ = {
 			isa = PBXGroup;
 			children = (
-				9514115620EA38CF00B8A4AB /* LoginManager */,
+				9549E66920EBEFC9001E374B /* APIRequest */,
+				9549E66620EBC6AF001E374B /* Formatter */,
+				9549E66320EBB60B001E374B /* Model */,
 			);
 			path = Core;
-			sourceTree = "<group>";
-		};
-		9514115620EA38CF00B8A4AB /* LoginManager */ = {
-			isa = PBXGroup;
-			children = (
-				9514115720EA391000B8A4AB /* APIRequest.swift */,
-			);
-			path = LoginManager;
 			sourceTree = "<group>";
 		};
 		9514115920EA3BBD00B8A4AB /* Breweries */ = {
@@ -186,13 +231,36 @@
 			path = ViewController;
 			sourceTree = "<group>";
 		};
+		9549E66320EBB60B001E374B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				9549E66420EBB623001E374B /* BrewerModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		9549E66620EBC6AF001E374B /* Formatter */ = {
+			isa = PBXGroup;
+			children = (
+				9549E66720EBC75E001E374B /* BrewerFormatter.swift */,
+			);
+			path = Formatter;
+			sourceTree = "<group>";
+		};
+		9549E66920EBEFC9001E374B /* APIRequest */ = {
+			isa = PBXGroup;
+			children = (
+				9549E66A20EBEFF7001E374B /* BreweriesRequest.swift */,
+				950A727220EC94A800E79EE6 /* LoginRequest.swift */,
+			);
+			path = APIRequest;
+			sourceTree = "<group>";
+		};
 		9563432020E630D000D67030 /* General */ = {
 			isa = PBXGroup;
 			children = (
-				9563432120E631F500D67030 /* Colors.swift */,
-				95AAC40620E779A8007BFBF6 /* Sizes.swift */,
-				95DC4E4320E7C1660030E7C2 /* SeparatorView.swift */,
-				9563432320E643E500D67030 /* ViewLayout.swift */,
+				950A727420EC95C900E79EE6 /* Resources */,
+				950A727520EC960500E79EE6 /* View */,
 			);
 			path = General;
 			sourceTree = "<group>";
@@ -310,6 +378,7 @@
 				"${SRCROOT}/Pods/Target Support Files/Pods-Pivovary/Pods-Pivovary-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
 				"${BUILT_PRODUCTS_DIR}/IQKeyboardManager/IQKeyboardManager.framework",
+				"${BUILT_PRODUCTS_DIR}/PromiseKit/PromiseKit.framework",
 				"${BUILT_PRODUCTS_DIR}/PureLayout/PureLayout.framework",
 				"${BUILT_PRODUCTS_DIR}/Unbox/Unbox.framework",
 			);
@@ -317,6 +386,7 @@
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IQKeyboardManager.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PromiseKit.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PureLayout.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Unbox.framework",
 			);
@@ -332,14 +402,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9549E66B20EBEFF7001E374B /* BreweriesRequest.swift in Sources */,
 				9514115E20EA506300B8A4AB /* BreweriesDataSource.swift in Sources */,
+				9549E66520EBB623001E374B /* BrewerModel.swift in Sources */,
+				950A727320EC94A800E79EE6 /* LoginRequest.swift in Sources */,
 				95AAC40720E779A8007BFBF6 /* Sizes.swift in Sources */,
 				9563432420E643E500D67030 /* ViewLayout.swift in Sources */,
 				9530D4B620E60CE900E70573 /* LoginView.swift in Sources */,
+				950A727A20EC969000E79EE6 /* SafeAreaExtension.swift in Sources */,
 				95DC4E4420E7C1660030E7C2 /* SeparatorView.swift in Sources */,
+				9549E66820EBC75E001E374B /* BrewerFormatter.swift in Sources */,
 				9563432220E631F500D67030 /* Colors.swift in Sources */,
 				9530D4A320E607EF00E70573 /* LoginViewController.swift in Sources */,
-				9514115820EA391000B8A4AB /* APIRequest.swift in Sources */,
 				9530D4A120E607EF00E70573 /* AppDelegate.swift in Sources */,
 				9514116220EA508F00B8A4AB /* BreweriesView.swift in Sources */,
 				9514116420EA5F6100B8A4AB /* BreweriesTableViewCell.swift in Sources */,

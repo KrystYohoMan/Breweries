@@ -53,7 +53,7 @@ extension LoginView: ViewLayout {
         userNameTextField.textAlignment = .center
         userNameTextField.textColor = Color.gray.color
         userNameTextField.attributedPlaceholder = NSAttributedString(
-            string: NSLocalizedString("LoginView_003", comment: ""),
+            string: NSLocalizedString("LoginView_002", comment: ""),
             attributes: [NSAttributedStringKey.foregroundColor: Color.beerYellow.color]
         )
         
@@ -61,13 +61,13 @@ extension LoginView: ViewLayout {
         passwordTextField.textAlignment = .center
         passwordTextField.textColor = Color.gray.color
         passwordTextField.attributedPlaceholder = NSAttributedString(
-            string: NSLocalizedString("LoginView_004", comment: ""),
+            string: NSLocalizedString("LoginView_003", comment: ""),
             attributes: [NSAttributedStringKey.foregroundColor: Color.beerYellow.color]
         )
         passwordTextField.isSecureTextEntry = true
         
         continueButton.backgroundColor = Color.beerYellow.color
-        continueButton.setTitle(NSLocalizedString("LoginView_005", comment: ""), for: .normal)
+        continueButton.setTitle(NSLocalizedString("LoginView_004", comment: ""), for: .normal)
         continueButton.layer.cornerRadius = cornerRadiusNumber
     }
     
@@ -75,8 +75,8 @@ extension LoginView: ViewLayout {
         let textFieldSize: CGFloat = 60
         let buttonHeight: CGFloat = 70
         
-// MARK: I got rid of navigation bar so I need Inset 90 baceause when I pin it to top it is right under status bar and If ever will be using navigation bar it is 64 or 81 so that's the inset 90.
-        titleLabel.autoPinEdge(toSuperviewEdge: .top, withInset: 90)
+// MARK: I decided to pin titleLabel to safeArea because whenever I decided to add navigation bar it will overlay titleLabel.
+        titleLabel.autoPinToSafeArea(toEdge: .top)
         titleLabel.autoPinEdge(toSuperviewEdge: .leading)
         titleLabel.autoPinEdge(toSuperviewEdge: .trailing)
         

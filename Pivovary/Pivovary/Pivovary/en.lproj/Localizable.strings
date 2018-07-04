@@ -1,8 +1,9 @@
 // MARK: LoginView
 "LoginView_001" = "Breweries";
-"LoginView_002" = "This app contains South Moravian breweries. So login and choose which one interested you the most. If you tapped choosed one it will redirect you to their website.";
-"LoginView_003" = "Username";
-"LoginView_004" = "Password";
-"LoginView_005" = "Continue";
+"LoginView_002" = "Username";
+"LoginView_003" = "Password";
+"LoginView_004" = "Continue";
 // MARK: LoginViewController
 "LoginViewController_001" = "Login";
+// MARK: BreweriesViewController
+"BreweriesViewController_001" = "List of breweries";

@@ -7,11 +7,12 @@
 //
 
 import UIKit
+import Alamofire
 
 final class LoginViewController: UIViewController {
     
     private let loginView = LoginView()
-    private let apiRequest = APIRequest()
+    private let loginRequest = LoginRequest()
     
     override func loadView() {
         view = loginView
@@ -19,7 +20,7 @@ final class LoginViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        navigationController?.isNavigationBarHidden = true
+        navigationController?.navigationBar.isHidden = true
         loginView.addContinueButtonTarget(target: self, action: #selector(continueButtonTapped))
     }
 }
@@ -27,6 +28,7 @@ final class LoginViewController: UIViewController {
 extension LoginViewController {
     
     @objc func continueButtonTapped() {
-        apiRequest.apiRequest()
+        loginRequest.apiRequest()
+        present(BreweriesViewController(), animated: true, completion: nil)
     }
 }

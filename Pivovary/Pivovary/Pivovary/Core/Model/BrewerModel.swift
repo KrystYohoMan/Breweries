@@ -9,16 +9,7 @@
 import Foundation
 import Unbox
 
-struct BrewerModel {
-    let id: Int
+struct BrewerModel: Decodable {
     let name: String
     let url: String
-}
-
-extension BrewerModel: Unboxable {
-    init(unboxer: Unboxer) throws {
-        id = try unboxer.unbox(key: "id")
-        name = try unboxer.unbox(key: "name")
-        url = try unboxer.unbox(key: "url")
-    }
 }

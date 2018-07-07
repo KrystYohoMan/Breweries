@@ -100,7 +100,6 @@ extension LoginView {
         continueButton.addTarget(target, action: action, for: controlEvent)
     }
     
-    
     private func createSeparator() -> SeparatorView {
         return SeparatorView()
     }

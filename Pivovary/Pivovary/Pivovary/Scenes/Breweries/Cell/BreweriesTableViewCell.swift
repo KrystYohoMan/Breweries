@@ -38,10 +38,3 @@ extension BreweriesTableViewCell: ViewLayout {
         brewerLabel.autoPinEdgesToSuperviewEdges()
     }
 }
-
-extension BreweriesTableViewCell {
-    
-    func setupWith(viewModel: BrewerModel) {
-        brewerLabel.text = viewModel.name
-    }
-}

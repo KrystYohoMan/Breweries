@@ -11,6 +11,22 @@
          </PersistentStrings>
       </ContextState>
       <ContextState
+         contextName = "BreweriesDataSource.tableView(_:numberOfRowsInSection:):BreweriesDataSource.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "breweriesRequest.apiRequest(nameArray: breweriesRequest.breweriesNameArray).count">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "BreweriesViewController.tableView(_:numberOfRowsInSection:):BreweriesViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "breweriesRequest.breweriesNameArray.count">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
          contextName = "closure #1 in BreweriesRequest.apiRequest():BreweriesRequest.swift">
          <PersistentStrings>
             <PersistentString
@@ -25,15 +41,18 @@
          </PersistentStrings>
       </ContextState>
       <ContextState
-         contextName = "BreweriesDataSource.tableView(_:numberOfRowsInSection:):BreweriesDataSource.swift">
+         contextName = "BreweriesRequest.apiRequest():BreweriesRequest.swift">
+      </ContextState>
+      <ContextState
+         contextName = "BreweriesRequest.loadBrewerName():BreweriesRequest.swift">
          <PersistentStrings>
             <PersistentString
-               value = "name = json[&quot;name&quot;]">
-            </PersistentString>
-            <PersistentString
-               value = "breweriesRequest.nameArray.count">
+               value = "object.name">
             </PersistentString>
          </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "closure #1 in closure #1 in DataRequest.responseDecodable&lt;A&gt;(queue:):BreweriesRequest.swift">
       </ContextState>
    </ContextStates>
 </VariablesViewState>

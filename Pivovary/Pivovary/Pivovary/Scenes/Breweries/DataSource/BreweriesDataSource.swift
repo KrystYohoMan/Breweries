@@ -9,11 +9,9 @@
 import UIKit
 
 final class BreweriesDataSource: NSObject, UITableViewDataSource {
-
-    private let breweriesArray: NSArray = ["One", "Two", "Three"]
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return breweriesArray.count
+        return breweriesNameArray.count
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
@@ -21,7 +19,7 @@ final class BreweriesDataSource: NSObject, UITableViewDataSource {
             assertionFailure("Non existing cell")
             return UITableViewCell()
         }
-        cell.textLabel?.text = "\(breweriesArray[indexPath.row])"
+        cell.textLabel?.text = "\(breweriesNameArray[indexPath.row])"
         return cell
     }
 }

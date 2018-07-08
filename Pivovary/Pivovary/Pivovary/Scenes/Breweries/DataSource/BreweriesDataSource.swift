@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import SafariServices
 
 final class BreweriesDataSource: NSObject, UITableViewDataSource {
     
@@ -21,5 +22,14 @@ final class BreweriesDataSource: NSObject, UITableViewDataSource {
         }
         cell.textLabel?.text = "\(breweriesNameArray[indexPath.row])"
         return cell
+    }
+}
+
+extension BreweriesViewController: UITableViewDelegate {
+    
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        guard let url = URL(string: breweriesURLArray[indexPath.row]) else { return }
+        let agreementsWebsiteControler = SFSafariViewController(url: url)
+        present(agreementsWebsiteControler, animated: true, completion: nil)
     }
 }

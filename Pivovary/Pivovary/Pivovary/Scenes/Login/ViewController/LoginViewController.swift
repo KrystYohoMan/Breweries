@@ -33,7 +33,7 @@ extension LoginViewController {
     
     @objc func continueButtonTapped() {
         loginView.animateTextFields()
-        if !loginView.isUserNameTextFieldEmpty() && !loginView.isPasswordTextFieldEmpty() && loginView.userAuthorized(){
+        if !loginView.isUserNameTextFieldEmpty() && !loginView.isPasswordTextFieldEmpty() && loginView.userAuthorized() {
             loginRequest.apiRequest()
             present(BreweriesViewController(), animated: true, completion: nil)
         }

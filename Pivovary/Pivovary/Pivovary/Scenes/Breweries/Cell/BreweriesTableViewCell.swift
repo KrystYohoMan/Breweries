@@ -9,8 +9,6 @@
 import UIKit
 
 final class BreweriesTableViewCell: UITableViewCell {
-    
-    private let brewerLabel = UILabel()
 
     override init(style: UITableViewCellStyle, reuseIdentifier: String?) {
         super.init(style: style, reuseIdentifier: reuseIdentifier)
@@ -27,14 +25,11 @@ final class BreweriesTableViewCell: UITableViewCell {
 extension BreweriesTableViewCell: ViewLayout {
     
     func addSubviews() {
-        addSubview(brewerLabel)
     }
     
     func setUpViews() {
-        brewerLabel.textAlignment = .center
     }
     
     func layoutViews() {
-        brewerLabel.autoPinEdgesToSuperviewEdges()
     }
 }

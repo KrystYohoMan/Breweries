@@ -7,7 +7,6 @@
 //
 
 import UIKit
-import SafariServices
 import Alamofire
 
 final class BreweriesViewController: UIViewController {
@@ -40,14 +39,5 @@ extension BreweriesViewController {
 
     @objc func reloadTableView() {
         breweriesView.tableView.reloadData()
-    }
-}
-
-extension BreweriesViewController: UITableViewDelegate {
-    
-    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        guard let url = URL(string: breweriesURLArray[indexPath.row]) else { return }
-        let agreementsWebsiteControler = SFSafariViewController(url: url)
-        present(agreementsWebsiteControler, animated: true, completion: nil)
     }
 }

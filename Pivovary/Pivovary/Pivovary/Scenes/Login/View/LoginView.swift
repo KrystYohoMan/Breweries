@@ -77,7 +77,7 @@ extension LoginView: ViewLayout {
         let textFieldSize: CGFloat = 60
         let buttonHeight: CGFloat = 70
         
-// MARK: I decided to pin titleLabel to safeArea because whenever I decided to add navigation bar it will overlay titleLabel.
+// MARK: I decided to pin titleLabel to safeArea because whenever I decided to add navigation bar it will overlay titleLabel but with safe area it won't happend.
         titleLabel.autoPinToSafeArea(toEdge: .top)
         titleLabel.autoPinEdge(toSuperviewEdge: .leading)
         titleLabel.autoPinEdge(toSuperviewEdge: .trailing)
@@ -138,8 +138,8 @@ extension LoginView {
 
 extension LoginView {
     
-    func addTargetForContinueButton(target: Any?, action: Selector, controlEvent: UIControlEvents = .touchUpInside) {
-        continueButton.addTarget(target, action: action, for: controlEvent)
+    func addTargetForContinueButton(target: Any?, action: Selector) {
+        continueButton.addTarget(target, action: action, for: .touchUpInside)
     }
     
     private func createSeparator() -> SeparatorView {

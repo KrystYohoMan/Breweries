@@ -19,7 +19,7 @@ private let method: HTTPMethod = .get
 var breweriesNameArray = [String]()
 var breweriesURLArray = [String]()
     
-func loadBrewerName() {
+func getBrewerData() {
     apiRequest().done { object -> Void in
         for value in object {
             breweriesNameArray.append(value.name)

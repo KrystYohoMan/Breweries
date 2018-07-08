@@ -24,7 +24,7 @@ final class BreweriesViewController: UIViewController {
         setupTableView()
         NotificationCenter.default.addObserver(self, selector: #selector(reloadTableView),
                                                name: reloadDataNotification, object: nil)
-        loadBrewerName()
+        getBrewerData()
     }
 }
 

@@ -21,14 +21,21 @@ final class LoginViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         navigationController?.navigationBar.isHidden = true
-        loginView.addContinueButtonTarget(target: self, action: #selector(continueButtonTapped))
+        addTargetForAllItems()
     }
 }
 
 extension LoginViewController {
     
+    func addTargetForAllItems() {
+        loginView.addTargetForContinueButton(target: self, action: #selector(continueButtonTapped))
+    }
+    
     @objc func continueButtonTapped() {
-        loginRequest.apiRequest()
-        present(BreweriesViewController(), animated: true, completion: nil)
+        loginView.animateTextFields()
+        if !loginView.isUserNameTextFieldEmpty() && !loginView.isPasswordTextFieldEmpty() && loginView.userAuthorized(){
+            loginRequest.apiRequest()
+            present(BreweriesViewController(), animated: true, completion: nil)
+        }
     }
 }

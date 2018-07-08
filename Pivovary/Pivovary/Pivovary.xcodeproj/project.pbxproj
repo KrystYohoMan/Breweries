@@ -14,6 +14,7 @@
 		9514116020EA507C00B8A4AB /* BreweriesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9514115F20EA507C00B8A4AB /* BreweriesViewController.swift */; };
 		9514116220EA508F00B8A4AB /* BreweriesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9514116120EA508F00B8A4AB /* BreweriesView.swift */; };
 		9514116420EA5F6100B8A4AB /* BreweriesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9514116320EA5F6100B8A4AB /* BreweriesTableViewCell.swift */; };
+		9521239120F2ABB000EB178A /* UITextFieldExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9521239020F2ABB000EB178A /* UITextFieldExtension.swift */; };
 		9530D4A120E607EF00E70573 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9530D4A020E607EF00E70573 /* AppDelegate.swift */; };
 		9530D4A320E607EF00E70573 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9530D4A220E607EF00E70573 /* LoginViewController.swift */; };
 		9530D4A820E607F100E70573 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9530D4A720E607F100E70573 /* Assets.xcassets */; };
@@ -35,6 +36,7 @@
 		9514115F20EA507C00B8A4AB /* BreweriesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreweriesViewController.swift; sourceTree = "<group>"; };
 		9514116120EA508F00B8A4AB /* BreweriesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreweriesView.swift; sourceTree = "<group>"; };
 		9514116320EA5F6100B8A4AB /* BreweriesTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreweriesTableViewCell.swift; sourceTree = "<group>"; };
+		9521239020F2ABB000EB178A /* UITextFieldExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITextFieldExtension.swift; sourceTree = "<group>"; };
 		9530D49D20E607EF00E70573 /* Pivovary.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pivovary.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9530D4A020E607EF00E70573 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9530D4A220E607EF00E70573 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
@@ -114,6 +116,7 @@
 			isa = PBXGroup;
 			children = (
 				950A727920EC969000E79EE6 /* SafeAreaExtension.swift */,
+				9521239020F2ABB000EB178A /* UITextFieldExtension.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -400,6 +403,7 @@
 				9530D4B620E60CE900E70573 /* LoginView.swift in Sources */,
 				950A727A20EC969000E79EE6 /* SafeAreaExtension.swift in Sources */,
 				95DC4E4420E7C1660030E7C2 /* SeparatorView.swift in Sources */,
+				9521239120F2ABB000EB178A /* UITextFieldExtension.swift in Sources */,
 				9563432220E631F500D67030 /* Colors.swift in Sources */,
 				9530D4A320E607EF00E70573 /* LoginViewController.swift in Sources */,
 				9530D4A120E607EF00E70573 /* AppDelegate.swift in Sources */,

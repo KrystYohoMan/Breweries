@@ -16,6 +16,8 @@ final class LoginView: UIView {
     private let passwordTextField = UITextField()
     private let continueButton = UIButton()
     private let stackView = UIStackView()
+    internal var userNameText: String = ""
+    internal var passwordText: String = ""
     
     init() {
         super.init(frame: .zero)
@@ -96,7 +98,47 @@ extension LoginView: ViewLayout {
 
 extension LoginView {
     
-    func addContinueButtonTarget(target: Any?, action: Selector, controlEvent: UIControlEvents = .touchUpInside) {
+    func isUserNameTextFieldEmpty() -> Bool {
+        userNameText = userNameTextField.text ?? ""
+        return userNameText.isEmpty
+    }
+    
+    func isPasswordTextFieldEmpty() -> Bool {
+        passwordText = passwordTextField.text ?? ""
+        return passwordText.isEmpty
+    }
+    
+    func userAuthorized() -> Bool {
+        userNameText = userNameTextField.text ?? ""
+        passwordText = passwordTextField.text ?? ""
+        return userNameText == "test@test.cz" && passwordText == "test"
+    }
+    
+    func animateUserNameTextField() {
+        userNameTextField.addShakeAnimation()
+    }
+    
+    func animatePasswordTextField() {
+        passwordTextField.addShakeAnimation()
+    }
+    
+    func animateTextFields() {
+        if isUserNameTextFieldEmpty() {
+            animateUserNameTextField()
+        }
+        if isPasswordTextFieldEmpty() {
+            animatePasswordTextField()
+        }
+        if !userNameText.isEmpty && !passwordText.isEmpty != userAuthorized() {
+            userNameTextField.addShakeAnimation()
+            passwordTextField.addShakeAnimation()
+        }
+    }
+}
+
+extension LoginView {
+    
+    func addTargetForContinueButton(target: Any?, action: Selector, controlEvent: UIControlEvents = .touchUpInside) {
         continueButton.addTarget(target, action: action, for: controlEvent)
     }
     
